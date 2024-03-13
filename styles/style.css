@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url(reset.css);
+
+:root {
+    --fnt-nav: "Inter", sans-serif;
+    --fnt-cor-nav: #667085;
+    --fnt-cor-cad: #8E2424;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: var(--fnt-nav);
+}
+
+.nav {
+    font-size: 1em;
+    color: var(--fnt-cor-nav);
+    display: flex;
+    padding: 3vh 8vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 2em;
+}
+
+.nav__jump {
+    width: 10vw;
+}
+
+.nav__login {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.nav__login__entrar {
+    color: var(--fnt-cor-nav);
+}
+
+.nav__login__cadastrar {
+    color: #FFFFFF;
+    background-color: var(--fnt-cor-cad);
+    padding: 9% 10%;
+    border-radius: 7.5px;
+}
+
+.cab {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 13vh 20vw;
+    font-weight: 600;
+}
+
+.cab__sobre {
+    color: var(--fnt-cor-cad);
+}
+
+.cab__titulo {
+    color: black;
+    font-size: 3em;
+    margin: .6em 0 1em 0;
+}
+
+.cab__p {
+    font-size: 1.3em;
+    color: var(--fnt-cor-nav);
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.metricas {
+    display: flex;
+    margin: 7%;
+    margin-top: 0;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.metricas__sep  {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.metricas__sep__numero {
+    font-size: 4em;
+    color: var(--fnt-cor-cad);
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+
+.metricas__sep__titulo {
+    font-size: 1.5em;
+    margin-bottom: 5%;
+}
+
+.metricas__sep__paragrafo {
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--fnt-cor-nav);
+    line-height: 1.3em;
+}
+

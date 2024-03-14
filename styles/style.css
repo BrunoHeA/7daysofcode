@@ -78,6 +78,7 @@ body {
     display: flex;
     margin: 7%;
     margin-top: 0;
+    margin-bottom: 10%;
     justify-content: space-between;
     gap: 3em;
 }
@@ -105,5 +106,36 @@ body {
     font-size: 1em;
     color: var(--fnt-cor-nav);
     line-height: 1.3em;
+}
+
+.talentos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.talentos__vagas {
+    color: #8E2424;
+    background-color: #8E24240D;
+    padding: .5em .7em;
+    width: max-content;
+    margin: auto;
+    border-radius: 1em;
+}
+
+.talentos__titulo {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.talentos__par {
+    color: #667085;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+.talentos__img {
+    margin: auto;
 }
 

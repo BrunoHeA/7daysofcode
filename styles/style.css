@@ -139,3 +139,38 @@ body {
     margin: auto;
 }
 
+.vagas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+    margin-top: 3em;
+}
+
+.vagas__titulo {
+    font-size: 1.2em;
+    margin: 2vh 25vw 2vh 25vw;
+    text-align: start;
+}
+
+.vagas__sec {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 32vw 2vh 2vw;
+    margin: 0 25vw 0 25vw;
+    border: 1px solid #EAECF0;
+    border-radius: .5em;
+    gap: 1.8em;
+}
+
+.vagas__sec__titulo {
+    font-size: 1em;
+    text-align: start;
+}
+
+.vagas__sec__geral {
+    display: flex;
+    color: var(--fnt-cor-nav);
+    gap: 1.2em;
+    font-size: .8em;
+}

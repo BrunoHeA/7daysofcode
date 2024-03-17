@@ -27,6 +27,14 @@ body {
     gap: 2em;
 }
 
+.nav__menu__a {
+    color: var(--fnt-cor-nav);
+}
+
+.nav__menu__a:hover {
+    color: #b0b5c2;
+}
+
 .nav__jump {
     width: 10vw;
 }
@@ -173,4 +181,75 @@ body {
     color: var(--fnt-cor-nav);
     gap: 1.2em;
     font-size: .8em;
+}
+
+.depoimentos {
+    text-align: center;
+    margin: 6em 10em 4em 10em;
+    padding: 5em;
+    background-color: gray;
+    border-radius: 1em;
+    background: #C3191908;
+}
+
+.depoimentos__colab {
+    color: var(--fnt-cor-cad);
+    font-weight: 600;
+}
+
+.depoimentos__coment {
+    font-size: 2em;
+    margin: 1em 0 1em 0;
+}
+
+.depoimentos__nome {
+    margin: 1em 0 .5em 0;
+}
+
+.depoimentos__cargo {
+    color: var(--fnt-cor-nav);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5em 0 5em 0;
+    background: #F9FAFB;
+    gap: 2em;
+}
+
+
+.rodape__titulo {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.rodape__para {
+    color: var(--fnt-cor-nav);
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.rodape__input {
+    border: 1px var(--fnt-cor-nav) solid;
+    border-radius: .5em;
+    padding: 1em 10em 1em 1em;
+    color: var(--fnt-cor-nav);
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.rodape__cadastro {
+    color: white;
+    padding: 1em;
+    background-color: var(--fnt-cor-cad);
+    border-radius: .5em;
+    font-size: 1em;
+    margin-left: 1em;
+}
+
+.rodape__direitos {
+    color: #98A2B3;
+    font-size: 1em;
 }
